@@ -1,0 +1,9 @@
+aquí voy a practicar git y githug
+
+cd "ruta de directorio o carpeta"
+
+git config --global user.name "..."
+
+git config --global user.email "..."
+
+git init  (inicializo el repositorio)
