@@ -7,3 +7,31 @@ git config --global user.name "..."
 git config --global user.email "..."
 
 git init  (inicializo el repositorio)
+
+para verificar en que rama me encuentro o cuales tengo utilizo el comando 
+
+git branch
+
+para crear una nueva rama...
+
+git branch "nombre dela nueva rama"     sin comillas
+
+si quiero cambiar el nombre de una rama ya creada
+
+git branch -m "nombreActual" "nuevoNnombre" sin comillas
+
+si quiero pararme sobre una rama ya creada
+
+git checkout "nombre de la rama" sin comiilas
+
+si quiero borrar una rama, tengo que pararme fuera de la rama que deseo borrar gin git checkout y luego poner.
+
+git branch -d "nombre de la rama que quiero borrar"
+
+ahora si sobre la rama que estoy parado le digo
+touch "texto.txt" me va a crear un archivo sobre esa rama.  esto si es con comillas.
+
+luego si nos paramos sobre la rama donde realizamos cambios y los comiteamos esos cambios solo quedaran en esa rama... pero si cambiamos a la rama principal esos cambios no se verán porque los cambios de la otra rama no se fucinaron a la principal todavía.
+
+ 
+
