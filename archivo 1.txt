@@ -47,5 +47,10 @@ para unir las ramas con los cambios de una rama de test primero se para subre la
 
 git merge ramatest main     por ejemplo
 
+
+luego de hacer el merge de rama1 a main hacemos un git add . para agregar todo y por ultimo
+
+git commit -"cabios en main"
+
  
 
