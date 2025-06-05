@@ -33,5 +33,19 @@ touch "texto.txt" me va a crear un archivo sobre esa rama.  esto si es con comil
 
 luego si nos paramos sobre la rama donde realizamos cambios y los comiteamos esos cambios solo quedaran en esa rama... pero si cambiamos a la rama principal esos cambios no se verán porque los cambios de la otra rama no se fucinaron a la principal todavía.
 
+
+……………………………
+merge y diff…
+
+para ver las direfencias que existen entre una rama y la principal por ejemplo. ejecuto el siguiente comando
+
+git diff "nombre de la rama principal" "nombre de la rama que voy a comparar"    sin comillas.
+
+si lo hacemos al reves vemos la diferencia al reves.
+
+para unir las ramas con los cambios de una rama de test primero se para subre la rama a Actualizar (main). despues se pone primero la rama origen y despues la rama destino.(ramatest a main).
+
+git merge ramatest main     por ejemplo
+
  
 
